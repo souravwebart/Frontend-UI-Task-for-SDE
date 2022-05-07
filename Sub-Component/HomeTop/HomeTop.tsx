@@ -1,8 +1,6 @@
 import React from "react";
 import cx from "classnames";
-import Image from "next/image";
 import styles from "./HomeTop.module.scss";
-import HowItWorks from "../../public/Images/Group 176.png";
 
 function HomeTop() {
   return (
@@ -19,8 +17,8 @@ function HomeTop() {
           <div className={cx(styles.homeTopbutton)}>
             <button>Get Started</button>
             <div className={cx(styles.howItWorks)}>
-              <Image
-                src={HowItWorks}
+              <img
+                src="/Images/Group 176.png"
                 alt="How-it-works"
                 width={60}
                 height={60}
