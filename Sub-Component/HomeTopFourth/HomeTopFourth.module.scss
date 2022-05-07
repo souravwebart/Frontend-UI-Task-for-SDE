@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.HomeTopBodyFourth {
+  background: #3734a9;
+  padding: 144px 0px 138px 0px;
+  .homeTopBodyFourthTopContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    h2 {
+      width: 823px;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 45px;
+      line-height: 50px;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      @media (max-width: 960px) {
+        width: 100%;
+        font-size: 40px;
+      }
+    }
+    button {
+      background: #ff7f5c;
+      border-radius: 10px;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      width: 225px;
+      height: 67px;
+      margin: 0px 0px 0px auto;
+      justify-content: end;
+      border: none;
+      @media (max-width: 960px) {
+        margin: 0px auto;
+        margin-top: 40px;
+        justify-content: start;
+      }
+    }
+  }
+  .homeTopBodyFouthContentBelow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 86.7px;
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .point {
+    display: flex;
+    padding-top: 36.74px;
+  }
+  .pointgrid1 h2 {
+    font-family: "Khula";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #e8f2ff;
+    padding-top: 37px;
+    text-align: center;
+    vertical-align: middle;
+    background: #312f91;
+    border-radius: 100%;
+    width: 94.52px;
+    height: 94.52px;
+  }
+
+  .pointgrid2 {
+    padding-left: 28px;
+    h3 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      color: #e8f2ff;
+    }
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18.9045px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      color: #a0b3e9;
+      padding-right: 122px;
+      @media (max-width: 960px) {
+        padding-right: 0px;
+      }
+    }
+  }
+}

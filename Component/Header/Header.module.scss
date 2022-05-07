@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.Header {
+  padding-top: 33px;
+
+  @media (min-width: 961px) {
+    .mobilenavbar {
+      display: none !important;
+    }
+  }
+  .Headerlogo a {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1.5fr;
+
+    .Headermenu1 {
+      justify-content: center;
+      text-align: center;
+      margin: 0px auto;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+        padding-top: 10px;
+      }
+      .downarrowflex {
+        display: flex;
+        img {
+          width: 8px;
+          height: 8px;
+          margin-top: 20px;
+          margin-left: -8px;
+          margin-right: 16px;
+        }
+      }
+    }
+    .menu2 {
+      display: flex;
+      justify-content: end;
+
+      a {
+        padding-right: 60px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        padding-top: 10px;
+      }
+      button {
+        background: #ff7f5c;
+        border-radius: 10px;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #ffffff;
+        padding: 17px 36px;
+        border: none;
+      }
+    }
+  }
+  @media (max-width: 960px) {
+    .desktopHeader {
+      display: none;
+    }
+  }
+  .mobilenavbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+  }
+  .mobilenavmenubar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #3734a9;
+    z-index: 1000;
+    transition: all 0.5s;
+    padding: 30px;
+  }
+  .closeIcon {
+    margin: 0px auto;
+    display: block;
+    p {
+      color: #ffffff;
+      font-size: 30px;
+    }
+  }
+
+  .Headermenu2 {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 0px 16px;
+      text-decoration: none;
+      padding-top: 10px;
+      font-size: 26px;
+    }
+    .downarrowflex {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 14px;
+        height: 14px;
+        margin-top: 20px;
+        margin-left: -8px;
+        margin-right: 16px;
+      }
+    }
+  }
+}

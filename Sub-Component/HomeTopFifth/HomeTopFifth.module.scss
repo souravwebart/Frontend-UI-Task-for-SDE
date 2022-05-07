@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.homeTopFifthBody {
+  padding: 134px 0px 93px 0px;
+  background: #fafbff;
+
+  .homeTopFifthBodyTop {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #ffffff;
+    border: 1px solid #dee1e6;
+    border-radius: 20px;
+    padding: 41px 50px 37px 44px;
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 41px 5px 37px 5px;
+    }
+    .homeTopFifthBodyText {
+      width: 331px;
+      padding-left: 18px;
+      h2 {
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 46px;
+        letter-spacing: -0.03em;
+        color: #000000;
+      }
+    }
+  }
+  .homeTopFifthBodygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .homeTopFifthBodygrid1 {
+    display: flex;
+    width: 225px;
+    height: 65px;
+    @media (max-width: 960px) {
+      padding: 40px 0px;
+    }
+    img {
+      padding: 10px;
+      background: #ebece8;
+      border-radius: 5px;
+    }
+    .homeTopFifthBodygridImg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .homeTopFifthBodyText p {
+    font-family: "Khula";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #64607d;
+  }
+  .homeTopFifthBodyButtom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 72px;
+    @media (max-width: 960px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .homeTopFifthBodyButtomBox {
+    background: #ffffff;
+    box-shadow: 0px 141.825px 113.46px rgba(0, 0, 0, 0.03),
+      0px 91.9235px 66.4476px rgba(0, 0, 0, 0.0227778),
+      0px 54.6288px 36.1391px rgba(0, 0, 0, 0.0182222),
+      0px 28.365px 18.4372px rgba(0, 0, 0, 0.015),
+      0px 11.5561px 9.24488px rgba(0, 0, 0, 0.0117778),
+      0px 2.62639px 4.46486px rgba(0, 0, 0, 0.00722222);
+    border-radius: 20px;
+    padding: 40px 56px;
+    @media (max-width: 960px) {
+      padding: 40px 10px;
+    }
+
+    h2 {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #000000;
+      @media (max-width: 960px) {
+        font-size: 36px;
+      }
+    }
+    p {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      color: #64607d;
+      padding-top: 10px;
+      padding-bottom: 26px;
+    }
+    button {
+      background: #4f46ba;
+      border-radius: 10px;
+      margin: 0px auto;
+      display: block;
+      justify-content: center;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #ffffff;
+      padding: 21px 53px 17px 52px;
+      border: none;
+    }
+  }
+  .homeTopFifthBodyButtomBox:nth-child(1) {
+    margin-right: 15px;
+    @media (max-width: 960px) {
+      margin: 20px 0px;
+    }
+  }
+  .homeTopFifthBodyButtomBox:nth-child(2) {
+    @media (max-width: 960px) {
+      margin: 20px 0px;
+    }
+  }
+}
